@@ -1,0 +1,47 @@
+.key-feature-container {
+  @apply border-[1px] border-solid border-[rgba(255,255,255,0.05)] rounded-md grow w-full lg:w-2/5 overflow-hidden;
+}
+
+.key-feature-container-1 {
+  @apply pb-5;
+}
+
+.key-feature-container-1 > img {
+  @apply w-full block;
+}
+
+.key-feature-container-1 > .icon-big {
+  @apply flex items-center gap-4 font-bold text-[20px] md:text-[24px] text-white m-5 md:m-8 xl:m-10 flex-col lg:flex-row;
+}
+
+.key-feature-container-1 > .icon-big > div {
+  @apply flex justify-center items-center w-14 h-14 rounded-lg bg-[#181B21];
+}
+
+.key-feature-container-1 > .icon-big > div > img {
+  @apply block;
+}
+
+.key-feature-container-1 > .content-text {
+  @apply text-white text-[16px] md:text-[20px] my-5 xl:my-8 mx-auto px-5 xl:px-8 max-w-md lg:max-w-full text-center lg:text-left;
+}
+
+.key-feature-container-2 {
+  @apply py-10 px-5 flex flex-col items-center gap-4 justify-center;
+}
+
+.key-feature-container-2 .icon {
+  @apply w-12 h-12 flex justify-center items-center rounded-lg bg-[#181B21];
+}
+
+.key-feature-container-2 .icon img {
+  @apply w-5 h-5 block;
+}
+
+.key-feature-container-2 .title {
+  @apply text-[20px] font-bold text-white text-center;
+}
+
+.key-feature-container-2 .content {
+  @apply text-[16px] font-normal lg:font-bold text-white text-center max-w-md;
+}
