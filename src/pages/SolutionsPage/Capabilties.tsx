@@ -19,7 +19,7 @@ const Capabilties = () => {
         {CapabilitiesMockData.map((data, index) => (
           <div
             key={index}
-            className="flex text-white grow w-full md:w-1/3 flex-col items-center gap-5 justify-center px-5 py-10 bg-[#0C0F14CC] rounded-xl border-[1px] border-[#FFFFFF0D] backdrop-blur-sm"
+            className="w-full md:w-1/3 flex-col flex text-white grow items-center gap-5 justify-center px-5 py-10 bg-[#0C0F14CC] rounded-xl border-[1px] border-[#FFFFFF0D] backdrop-blur-sm"
           >
             <div className="w-12 h-12 rounded-lg bg-[#1a1a1f] flex items-center justify-center">
               <img

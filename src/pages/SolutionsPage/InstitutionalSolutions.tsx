@@ -22,10 +22,10 @@ const InstitutionalSolutions = () => {
           {InstitutionalSolutionsMockData.map((data, index) => (
             <div key={index} className="py-12 px-6 md:px-12 bg-[#0C0F14CC] border-[1px] border-[#FFFFFF0D] rounded-lg backdrop-blur-sm flex justify-between w-full gap-5 flex-col lg:flex-row items-center md:items-start">
               <div className="flex flex-col items-center md:items-start">
-                <div className="text-[#FFFFFFCC] text-center md:text-left">
+                <div className="text-center md:text-left text-[#FFFFFFCC]">
                   {data.step}: <span className="font-semibold text-white">{data.period}</span>
                 </div>
-                <div className="text-[24px] font-semibold text-center md:text-left">{data.title}</div>
+                <div className="font-semibold text-[24px] text-center md:text-left">{data.title}</div>
               </div>
               <div className="max-w-[500px] text-center md:text-left">{data.text}</div>
             </div>
