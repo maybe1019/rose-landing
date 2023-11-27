@@ -17,7 +17,7 @@ const PlatformSection = () => {
             from data discovery to insightful visualizations, ensuring every
             data point is explainable and traceable.
           </div>
-          <img src="/static/img/platform-equity-returns.svg" alt="equity returns" className="block md:absolute md:left-full md:top-1/2 md:-translate-y-1/2 mb-16 md:mb-0" />
+          <img src="/static/img/platform-equity-returns.png" alt="equity returns" className="block md:absolute md:left-full md:top-1/2 md:-translate-y-1/2 mb-16 md:mb-0" />
 
           {PlatformSectionContents.map((qa, index) => (
             <div
