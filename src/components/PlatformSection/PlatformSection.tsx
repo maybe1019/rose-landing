@@ -6,7 +6,6 @@ const PlatformSection = () => {
     <div className="bg-[url('./assets/images/platform-background.svg')] bg-no-repeat bg-center bg-cover py-40 overflow-hidden">
       <div className="container mx-auto px-4 md:px-10">
         <div className="text-white max-w-[720px] relative">
-          <img src="/static/img/platform-equity-returns.svg" alt="equity returns" className="!hidden md:!block absolute left-full top-1/2 -translate-y-1/2" />
           <div className="text-primary font-bold">Platform</div>
           <div className="text-[32px] md:text-[36px] font-bold my-5">
             Mastery in Data Discovery and Visualization
@@ -18,6 +17,7 @@ const PlatformSection = () => {
             from data discovery to insightful visualizations, ensuring every
             data point is explainable and traceable.
           </div>
+          <img src="/static/img/platform-equity-returns.svg" alt="equity returns" className="block md:absolute md:left-full md:top-1/2 md:-translate-y-1/2 mb-16 md:mb-0" />
 
           {PlatformSectionContents.map((qa, index) => (
             <div
