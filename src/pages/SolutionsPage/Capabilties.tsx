@@ -5,7 +5,11 @@ import { CapabilitiesMockData } from "./data";
 const Capabilties = () => {
   return (
     <div className="text-white flex flex-col items-center py-20 gap-5 relative">
-      <img src="/static/img/solutions-bg-2.png" alt="bg" className="w-full h-full min-w-[500px] max-h-[1000px] absolute left-0 top-0 -z-10" />
+      <img
+        src="/static/img/solutions-bg-2.png"
+        alt="bg"
+        className="w-full h-full min-w-[500px] max-h-[1000px] absolute left-0 top-0 -z-10"
+      />
       <div className="text-[48px] md:text-[64px] font-semibold leading-tight">
         Capabilties
       </div>

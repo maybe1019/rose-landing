@@ -95,7 +95,7 @@ const KeyFeaturesSection = () => {
             <div className="title">Intuitive Data Discovery</div>
             <div className="content">
               Effortlessly find the data you need with Rose AI's advanced search
-              capabilities, powered by NLP and open-source llms.
+              capabilities, powered by NLP and open-source LLMs.
             </div>
           </div>
         </div>

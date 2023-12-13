@@ -5,7 +5,7 @@ const TheProblemSection = () => {
     <div className="container mx-auto my-14 lg:my-20 px-5 lg:px-20 z-[1] py-14">
       <div className="text-primary font-bold">The Problem</div>
       <div className="text-white font-semibold text-[32px] lg:text-[32px] xl:text-[34px] 2xl:text-[36px] leading-tight max-w-2xl">
-        Data is Important, but Data is Hard
+        Data Integration, Warehousing & Visualization is Hard
       </div>
       <div className="text-white text-[20px] md:text-[22px] xl:text-[24px] my-4 z-[1] relative max-w-2xl">
         The necessity for a unified platform that simplifies data discovery,
@@ -30,8 +30,8 @@ const TheProblemSection = () => {
           </div>
           <div className="text-white">
             In today's data-driven financial landscape, analysts and
-            decision-makers are often overwhelmed by the sheer volume and
-            complexity of manipulating and visualizing.
+            decision-makers are often overwhelmed by the volume and complexity
+            of manipulating and visualizing data.
           </div>
         </div>
         <div className="max-w-[350px]">

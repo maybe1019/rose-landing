@@ -11,7 +11,7 @@ const PlatformSection = () => {
             Mastery in Data Discovery and Visualization
           </div>
           <div className="text-[20px] md:text-[22px] font-normal mb-16">
-            Rose AI is an intuitive platform tailored for financial analysts and
+            Rose AI is an intuitive platform designed for financial analysts and
             decision-makers, providing a robust data solution experience. Rose
             AI integrates advanced language models to offer a seamless journey
             from data discovery to insightful visualizations, ensuring every

@@ -33,8 +33,8 @@ const HeroSection = () => {
             Industries <br className="!block sm:!hidden" /> We Serve
           </div>
           <div className="text-[20px] md:text-[24px] text-center lg:text-left">
-            Rose AI pulls from broad datasets and is able to provide you with
-            the data to illustrate nearly anything.
+            Rose AI offers solutions packages to several sectors within the
+            finance landscape.
           </div>
           <button className="px-10 py-2 bg-primary rounded-3xl">
             Request a Demo
